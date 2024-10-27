@@ -1,0 +1,83 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ecf0f1; /* Warna Latar */
+    color: #2c3e50; /* Warna Teks */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #3498db; /* Warna Primer */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Navigasi */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e74c3c; /* Warna Aksen */
+}
+
+/* Section */
+section {
+    padding: 40px 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background: #fff; /* Latar Putih */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul Section */
+h2 {
+    color: #3498db; /* Warna Primer */
+    margin-bottom: 20px;
+}
+
+/* Proyek */
+.project {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #3498db; /* Warna Primer */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
